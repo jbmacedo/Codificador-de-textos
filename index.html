@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Decodificador de textos</title>
+</head>
+<body>
+    <header>
+        <img src="/imagens/logoalura.png" alt="Logo da alura">
+    </header>
+    <main class="main">
+    <section>
+        <textarea class="input-texto"  cols="30" rows="5" placeholder="Digite seu texto"></textarea>
+        <div>
+            <h6 class="informacao">*Apenas letras maiúsculas e minúsculas</h6>
+        </div>
+        <div class="botoes">
+            <button class="encripitar" id="ecript" onclick="btnEncriptar()">
+                Criptografar
+            </button>
+            <button class="desencripitar" id="decript" onclick="btnDesencripitar()">
+                Descriptografar
+            </button>
+            <button class="copiar" id="btnCopiar" onclick="btnCopiar()">
+                Copiar
+            </button>
+        </div>
+    </section>
+    <section>
+        <textarea class="mensagem" id="textoResolvido" cols="10" rows="5"></textarea>     
+        
+    </section>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+        <p>João Barbosa © 2022</p>
+        <a href="https://github.com/jbmacedo">Github</a>
+        <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-macedo/">Linkedin</a>
+    </footer>
+</body>
+</html>
